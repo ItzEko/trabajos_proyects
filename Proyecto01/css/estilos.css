@@ -35,11 +35,20 @@ body{
     width: 15%;
     /* altura del 100 para que agarre toda la pagina el menu */
     height: 100%;
+    
+}
+.menu ul li a{
+    display: block;
+    padding: 15px;
+}
+a{
+    margin-left: 20px;
 }
 /* GATITO PARA TRAER LOS IDS  */
 #logo{
-    font-family: 'lobster', cursive;
-    font-size: 30px;
+    font-family:'Cookie', cursive;
+    font-size: 35px;
+    
 }
 
 
