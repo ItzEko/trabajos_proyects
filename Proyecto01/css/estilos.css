@@ -1,3 +1,52 @@
-body{
-    background-color: black;
+
+/* RAIZ DE LOS COLORES */
+:root{
+    /* CREAMOS LAS VARIABLES DE COLOR DE LA SIGUIENTE MANERA */
+    --bg-color: #303131;
+    --menu-color: #000000;
+    --text-color:#fff;
 }
+
+/* SELECCIONAMOS TODA LA PAGINA EN SU TOTALIDAD "* SELECCIONA TODOS LOS ELEMENTOS DEL DOCUMENTO" */
+/* TODO LO QUE PONGAMOS A QUI VA A AFECTAR ABSOLUTAMENTE TODOOO */
+*{
+    /* CON EL PADDING Y EL MARGIN SE SELECCIONA TODO HASTA LA ESQUINA */
+  padding: 0;
+  margin: 0;
+  /* TEXT-DECORATIONLE QUITA LA LINEA DE ABAJO DE LOS LINKS DEL MENU */
+  text-decoration: none;
+  color: var(--text-color);
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+
+body{
+    background-color: var(--bg-color);
+}
+/* PUNTO PARA LLAMAR LAS CLASES */
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--menu-color);
+    color:var(--text-color);
+    /* EL PISITION FIXED HACE QUE EL MENU SE QUEDE QUIETO MIENTRAS QUE EL USUARIO VA HACIENDO SCROLL */
+    position:fixed;
+    padding: 10px;
+    width: 15%;
+    /* altura del 100 para que agarre toda la pagina el menu */
+    height: 100%;
+}
+/* GATITO PARA TRAER LOS IDS  */
+#logo{
+    font-family: 'lobster', cursive;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
