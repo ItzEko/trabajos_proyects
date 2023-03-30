@@ -3,8 +3,9 @@
 :root{
     /* CREAMOS LAS VARIABLES DE COLOR DE LA SIGUIENTE MANERA */
     --bg-color: #303131;
-    --menu-color: #000000;
+    --menu-color: #1d1c1c;
     --text-color:#fff;
+    --color-border: #6d5f5f;
 }
 
 /* SELECCIONAMOS TODA LA PAGINA EN SU TOTALIDAD "* SELECCIONA TODOS LOS ELEMENTOS DEL DOCUMENTO" */
@@ -35,20 +36,38 @@ body{
     width: 15%;
     /* altura del 100 para que agarre toda la pagina el menu */
     height: 100%;
-    
+    border-right:1px solid var(--color-border);
+    box-shadow:5px 0 30px rgba(0,0,0,.1);
+}
+.menu ul li a i{
+    font-size: 25px;
+    display: inline;
+    padding: 10px;
 }
 .menu ul li a{
     display: block;
-    padding: 15px;
+    padding: 10px;
+    font-size: 15px;
 }
-a{
-    margin-left: 20px;
+.menu ul li a img{
+    width: 30px;
+    height: 30px;
+    border-radius: 140%;
+    margin-left: 10px;
+
 }
+/* HOVER SE OCUPA PARA CUANDO EL MOUSE SE PASA SOBRE LOS ELEMENTOS ESTOS SE PONGAN DE UN COLOR  */
+a:hover{
+    background-color:var(--bg-color);
+    border-radius: 30px;
+
+}
+
 /* GATITO PARA TRAER LOS IDS  */
 #logo{
     font-family:'Cookie', cursive;
     font-size: 35px;
-    
+    padding: 25px;
 }
 
 
