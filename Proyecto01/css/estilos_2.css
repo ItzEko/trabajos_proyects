@@ -1,0 +1,20 @@
+
+.cuerpo-superior{
+/* SE MODIFICO EL CONTENEDOR PRINCIPAL PARA PODER MODIFICAR DENTRO DE ESTE EL OTRO CONTENEDOR DE LAS HISTORIAS */
+    display: flex;
+    position:relative;
+    left: 250px;
+    margin-left: 100px;
+    width: 600px;
+    /* OVERFLOW HIDDEN HACE QUE EL CONTENIDO SE OCULTE DENTRO DEL CONTENEDOR*/
+    overflow: hidden;
+    padding: 0px;
+}
+.Stories{
+    background-color:  #1d1c1c;
+    margin-top: 30px;
+    border: 1px solid  #6d5f5f;
+    border-radius:5px;
+    width: 600px;
+    padding-left: 20px;
+}
