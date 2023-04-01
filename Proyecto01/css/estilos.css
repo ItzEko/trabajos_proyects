@@ -1,3 +1,7 @@
+
+/* px/16=rem (aqui rem son los mejores en vez de pixeles, la cantidad de pixeles entre 16 saldran los rems) */
+
+
 /* importamos hojas de estilo */
 @import url('estilos_2.css');
 
@@ -22,7 +26,6 @@
   color: var(--text-color);
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
-
 
 body{
     background-color: var(--bg-color);

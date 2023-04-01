@@ -1,7 +1,7 @@
 
 .cuerpo-superior{
 /* SE MODIFICO EL CONTENEDOR PRINCIPAL PARA PODER MODIFICAR DENTRO DE ESTE EL OTRO CONTENEDOR DE LAS HISTORIAS */
-    display: flex;
+    display: inline;
     position:relative;
     left: 250px;
     margin-left: 100px;
@@ -9,12 +9,43 @@
     /* OVERFLOW HIDDEN HACE QUE EL CONTENIDO SE OCULTE DENTRO DEL CONTENEDOR*/
     overflow: hidden;
     padding: 0px;
+    
 }
+/* CONTENEDOR DE LAS HISTORIAS */
 .Stories{
     background-color:  #1d1c1c;
-    margin-top: 30px;
+    margin-top: 15px;
     border: 1px solid  #6d5f5f;
     border-radius:5px;
-    width: 600px;
+    width: 580px;
     padding-left: 20px;
+    height: 100px;
+    padding: 20px;
+    margin-left: 70px;
+}
+
+.card ul{
+    display: inline-block;
+    list-style:none;
+    text-align:center;
+    font-size: 12px;
+    margin: 4px;
+    border: 1px solid green;
+
+    width: 80px;
+}
+.card ul li img {
+    width: 60px;
+    height: 60px;
+    margin-left: 1%;
+    border: 2px solid black;
+    border-radius:50px;
+}
+.border-gradiente{
+    padding: 5px;
+    background: linear-gradient(45deg, red, blue);
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    margin-left: 1px;
 }
