@@ -11,7 +11,7 @@
     /* CREAMOS LAS VARIABLES DE COLOR DE LA SIGUIENTE MANERA */
     --bg-color: #303131;
     --menu-color: #1d1c1c;
-    --text-color:#fff;
+    --text-color:#ffffff;
     --color-border: #6d5f5f;
 }
 
@@ -55,6 +55,7 @@ body{
     display: block;
     padding: 10px;
     font-size: 15px;
+    color: var(--text-color);
 }
 .menu ul li a img{
     width: 30px;
@@ -75,6 +76,7 @@ a:hover{
     font-family:'Cookie', cursive;
     font-size: 35px;
     padding: 25px;
+    color: var(--text-color);
 }
 /* hola */
 

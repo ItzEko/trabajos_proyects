@@ -1,7 +1,7 @@
 
 .cuerpo-superior{
 /* SE MODIFICO EL CONTENEDOR PRINCIPAL PARA PODER MODIFICAR DENTRO DE ESTE EL OTRO CONTENEDOR DE LAS HISTORIAS */
-    display: inline;
+    display: grid;
     position:relative;
     left: 250px;
     margin-left: 100px;
@@ -13,6 +13,7 @@
 }
 /* CONTENEDOR DE LAS HISTORIAS */
 .Stories{
+    display: flex;
     background-color:  #1d1c1c;
     margin-top: 15px;
     border: 1px solid  #6d5f5f;
@@ -22,30 +23,36 @@
     height: 100px;
     padding: 20px;
     margin-left: 70px;
+    /* LOS DITRIBUYE EN TODO EL CONTENDOR */
+    justify-content: space-around;
 }
-
-.card ul{
-    display: inline-block;
-    list-style:none;
-    text-align:center;
+/* CONTENEDOR DE LA IMAGEN Y EL TEXTO */
+.Stories .container-gradiente{
+    position: relative;
+    width:70px;
+    height: 70px;
+    background: linear-gradient(to left,rgb(201, 0, 178),rgb(255, 0, 144),rgb(255, 227, 12));
+    border-radius: 50%;
+}
+/* CONTENDR DE LA IMAGEN */
+.Stories .container-gradiente .image-container{
+    /* posicionamos en absoluto para que este para  */
+    position:relative;
+}
+.Stories .image-container img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin: 2px;
+}
+/* Le quitamos el estilo de lista desordenada con list style */
+.Stories li{
+    list-style: none;
     font-size: 12px;
-    margin: 4px;
-    border: 1px solid green;
-
-    width: 80px;
+    text-align: center;
 }
-.card ul li img {
-    width: 60px;
-    height: 60px;
-    margin-left: 1%;
-    border: 2px solid black;
-    border-radius:50px;
-}
-.border-gradiente{
-    padding: 5px;
-    background: linear-gradient(45deg, red, blue);
-    border-radius: 50px;
-    width: 60px;
-    height: 60px;
-    margin-left: 1px;
+/* Ponemos un margin top para que se baje el texto */
+.Stories li p{
+    margin-top: 4px;
 }
