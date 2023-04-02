@@ -3,34 +3,35 @@
 /* SE MODIFICO EL CONTENEDOR PRINCIPAL PARA PODER MODIFICAR DENTRO DE ESTE EL OTRO CONTENEDOR DE LAS HISTORIAS */
     display: grid;
     position:relative;
-    left: 250px;
-    margin-left: 100px;
-    width: 600px;
+    left: 12.5rem;
+    margin-left: 6.5rem;
+    width: 40rem;
+    height:62.5rem;
     /* OVERFLOW HIDDEN HACE QUE EL CONTENIDO SE OCULTE DENTRO DEL CONTENEDOR*/
     overflow: hidden;
-    padding: 0px;
-    
+    padding: 0rem;
+    border: 2px solid yellow;
 }
 /* CONTENEDOR DE LAS HISTORIAS */
 .Stories{
     display: flex;
     background-color:  #1d1c1c;
-    margin-top: 15px;
-    border: 1px solid  #6d5f5f;
-    border-radius:5px;
-    width: 580px;
-    padding-left: 20px;
-    height: 100px;
-    padding: 20px;
-    margin-left: 70px;
-    /* LOS DITRIBUYE EN TODO EL CONTENDOR */
-    justify-content: space-around;
+    margin-top: 0.9375rem;
+    border: 0.0625rem solid  #6d5f5f;
+    border-radius:0.3125rem;
+    width: 36.25rem;
+    padding-left: 1.25rem;
+    height: 6.25rem;
+    padding: 1.25rem;
+    margin-left:0.1875rem;
+    /* EL SPACE BETWEEN LOS DISTRIBUYE ALREDEDOR DEL CONTENDOR */
+    justify-content:space-evenly;
 }
 /* CONTENEDOR DE LA IMAGEN Y EL TEXTO */
 .Stories .container-gradiente{
     position: relative;
-    width:70px;
-    height: 70px;
+    width:4.375rem;
+    height: 4.375rem;
     background: linear-gradient(to left,rgb(201, 0, 178),rgb(255, 0, 144),rgb(255, 227, 12));
     border-radius: 50%;
 }
@@ -40,19 +41,20 @@
     position:relative;
 }
 .Stories .image-container img{
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
     border-radius: 50%;
-    border: 3px solid black;
-    margin: 2px;
+    border: 0.1875rem solid black;
+    margin: 0.125rem;
 }
 /* Le quitamos el estilo de lista desordenada con list style */
 .Stories li{
     list-style: none;
-    font-size: 12px;
+    font-size: 0.75rem;
     text-align: center;
 }
 /* Ponemos un margin top para que se baje el texto */
-.Stories li p{
-    margin-top: 4px;
+.Stories li a{
+    margin-top: 0.25rem;
+    box-shadow: none;
 }

@@ -29,6 +29,7 @@
 
 body{
     background-color: var(--bg-color);
+    background: var(--bg-color);
 }
 /* PUNTO PARA LLAMAR LAS CLASES */
 .menu{
