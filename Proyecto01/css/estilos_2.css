@@ -10,7 +10,7 @@
     /* OVERFLOW HIDDEN HACE QUE EL CONTENIDO SE OCULTE DENTRO DEL CONTENEDOR*/
     overflow: hidden;
     padding: 0rem;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow;  */
 }
 
 /* 
@@ -30,6 +30,7 @@
     margin-left:0.1875rem;
     /* EL SPACE BETWEEN LOS DISTRIBUYE ALREDEDOR DEL CONTENDOR */
     justify-content:space-evenly;
+    
 }
 /* CONTENEDOR DE LA IMAGEN Y EL TEXTO */
 .Stories .container-gradiente{
@@ -67,36 +68,18 @@
 
 /* CONTENEDOR DE LOS POSTS */
 .container-posts{
-    display: flex;
     background-color:  #1d1c1c;
     border: 0.0625rem solid  #6d5f5f;
     border-radius:0.3125rem;
     width: 36.25rem;
-    padding-left: 1.25rem;
-    padding: 1.25rem;
+    padding: 28px;
     margin-left:0.1875rem;
     margin-top: 40px;
     height: 700px;
+    margin-right: 10px;
 }
-/* CONTENEDOR DE SOLO UN PERFIL */
-.container-posts .perfil-container{
-    display: flex;
-    border: 2px solid rgb(255, 35, 35);
-    width: 590px;
-    height: 700px;
-    margin-left: 0px;
-}
-
-.container-posts .perfil-container .perfil-gradient-container{ 
-    margin-top: 2px; 
-    margin-left: 0px;
-    width:38px;
-    height:38px;
-    background: linear-gradient(to left,rgb(201, 0, 178),rgb(255, 0, 144),rgb(255, 227, 12));
-    border-radius: 50%;
-}
-
-.container-posts .perfil-container img{
+/* DIMENSIONES DE LA IMAGEN DE PERFIL */
+.container-posts .image-cont img{
     margin-top:2px;
     margin-left: 2px;
     width: 30px;
@@ -105,3 +88,37 @@
     border: 2px solid rgb(0, 0, 0);
 }
 
+/* GRADIENTE DEL POST DEL PERFIL */
+.container-posts .perfil-gradient-container{ 
+    /* AQUI VA EL DISPLAY PARA QUE LA FOTO Y EL NOMBRE QUEDEN A UN LADO DEL OTRO */
+    display: flex;
+    margin-top: 2px; 
+    margin-left: 0px;
+    width:38px;
+    height:38px;
+    background: linear-gradient(to left,rgb(201, 0, 178),rgb(255, 0, 144),rgb(255, 227, 12));
+    border-radius: 50%;
+}
+
+.container-posts .perfil-gradient-container .user-name{
+    font-size: 13px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.container-posts ,.perfil-gradient-container i{
+    float: right;
+    margin-left: 400px;
+}
+.container-posts .post-img img{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    
+}
+.container-posts .img-post{
+    margin-top: 9px;
+    width: 300px;
+    height: 400px;
+    border-radius: 2%;
+}
