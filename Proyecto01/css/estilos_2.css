@@ -71,7 +71,7 @@
     background-color:  #1d1c1c;
     border: 0.0625rem solid  #6d5f5f;
     border-radius:0.3125rem;
-    width: 36.25rem;
+    width: 568px;
     padding: 28px;
     margin-left:0.1875rem;
     margin-top: 40px;
@@ -108,7 +108,7 @@
 }
 .container-posts ,.perfil-gradient-container i{
     float: right;
-    margin-left: 400px;
+    margin-left: 440px;
 }
 .container-posts .post-img img{
     margin-top: 10px;
@@ -121,4 +121,11 @@
     width: 300px;
     height: 400px;
     border-radius: 2%;
+}
+.container-posts .info-post .icons-post{
+    display: flex;
+    flex-direction: row;
+}
+.container-posts .info-post .icons-post i{
+    margin: 20px;
 }
