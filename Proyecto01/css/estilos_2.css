@@ -6,7 +6,6 @@
     left: 12.5rem;
     margin-left: 6.5rem;
     width: 40rem;
-    height:62.5rem;
     /* OVERFLOW HIDDEN HACE QUE EL CONTENIDO SE OCULTE DENTRO DEL CONTENEDOR*/
     overflow: hidden;
     padding: 0rem;
@@ -75,7 +74,6 @@
     padding: 28px;
     margin-left:0.1875rem;
     margin-top: 40px;
-    height: 700px;
     margin-right: 10px;
 }
 /* DIMENSIONES DE LA IMAGEN DE PERFIL */
@@ -118,14 +116,20 @@
 }
 .container-posts .img-post{
     margin-top: 9px;
-    width: 300px;
-    height: 400px;
+    width: 100%;
     border-radius: 2%;
+
 }
 .container-posts .info-post .icons-post{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 .container-posts .info-post .icons-post i{
-    margin: 20px;
+    margin: 5px;
+    font-size: 25px;
+}
+.container-posts .info-post .descripcion {
+    margin-left: 10px;
 }
