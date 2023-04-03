@@ -9,7 +9,7 @@
     /* OVERFLOW HIDDEN HACE QUE EL CONTENIDO SE OCULTE DENTRO DEL CONTENEDOR*/
     overflow: hidden;
     padding: 0rem;
-    /* border: 2px solid yellow;  */
+    border: 2px solid yellow; 
 }
 
 /* 
@@ -21,7 +21,7 @@
     background-color:  #1d1c1c;
     margin-top: 0.9375rem;
     border: 0.0625rem solid  #6d5f5f;
-    border-radius:0.3125rem;
+    border-radius:1rem;
     width: 36.25rem;
     padding-left: 1.25rem;
     height: 6.25rem;
@@ -69,11 +69,11 @@
 .container-posts{
     background-color:  #1d1c1c;
     border: 0.0625rem solid  #6d5f5f;
-    border-radius:0.3125rem;
+    border-radius:1rem;
     width: 568px;
     padding: 28px;
     margin-left:0.1875rem;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: 10px;
 }
 /* DIMENSIONES DE LA IMAGEN DE PERFIL */
@@ -86,11 +86,11 @@
     border: 2px solid rgb(0, 0, 0);
 }
 
-/* GRADIENTE DEL POST DEL PERFIL */
+/* CONTENEDOR DE GRADIENTE E IMAGEN DEL PERFIL POST */
 .container-posts .perfil-gradient-container{ 
     /* AQUI VA EL DISPLAY PARA QUE LA FOTO Y EL NOMBRE QUEDEN A UN LADO DEL OTRO */
     display: flex;
-    margin-top: 2px; 
+    margin-top: -15px; 
     margin-left: 0px;
     width:38px;
     height:38px;
@@ -108,6 +108,7 @@
     float: right;
     margin-left: 440px;
 }
+/* IMAGEN DEL POST */
 .container-posts .post-img img{
     margin-top: 10px;
     width: 300px;
@@ -120,16 +121,51 @@
     border-radius: 2%;
 
 }
+/* REACCIONES DEL POST */
 .container-posts .info-post .icons-post{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* ALIG ITMES FUNCIONA DE MANERA VERTICAL PARA ACOMODAR */
     align-items: center;
 }
 .container-posts .info-post .icons-post i{
     margin: 5px;
     font-size: 25px;
+    color: azure;
 }
 .container-posts .info-post .descripcion {
     margin-left: 10px;
+}
+/* ------------------------------------------------------- */
+/* REACCIONES LIKES IMAGENES CONTENEDOR */
+.container-posts .info-post .likes-reactions {
+    /* border: 2px solid red;  */
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    margin-bottom: 15px;
+}
+/* TAMAÑOS DE LAS IMAGENES DE QUIEN REACCIONO */
+.container-posts .info-post .likes-reactions img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+/* CONTENEDOR DEL TEXTO DESCRIPCION DEL POST */
+.container-posts .info-post .likes-reactions span{
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+/* CONFIGURACION DEL INPUT DE COMENTARIO */
+.container-posts .info-post input{
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    outline:none;
+}
+.container-posts .info-post i{
+    color: #6d5f5f;
+    margin-left: 360px;
 }

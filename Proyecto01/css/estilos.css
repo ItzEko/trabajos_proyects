@@ -4,6 +4,7 @@
 
 /* importamos hojas de estilo */
 @import url('estilos_2.css');
+@import url('sugerencias.css');
 
 
 /* RAIZ DE LOS COLORES */
@@ -30,6 +31,8 @@
 body{
     background-color: var(--bg-color);
     background: var(--bg-color);
+    display: flex;
+    flex-direction: row;
 }
 /* PUNTO PARA LLAMAR LAS CLASES */
 .menu{
@@ -66,7 +69,7 @@ body{
 
 }
 /* HOVER SE OCUPA PARA CUANDO EL MOUSE SE PASA SOBRE LOS ELEMENTOS ESTOS SE PONGAN DE UN COLOR  */
-a:hover{
+.menu ul li a:hover{
     background-color:var(--bg-color);
     border-radius: 30px;
 

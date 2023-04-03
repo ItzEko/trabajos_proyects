@@ -1,0 +1,12 @@
+
+.sugerencias-container{
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    height: 400px;
+    border: 2px solid red;
+    left: 200px;
+    position: relative;
+}
+
+
