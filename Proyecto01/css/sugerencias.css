@@ -2,9 +2,9 @@
 .sugerencias-container{
     display: flex;
     flex-direction: column;
-    width:300px;
+    width:320px;
     height: 400px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     left: 220px;
     position: relative;
 }
@@ -27,7 +27,7 @@
 }
 
 .sugerencias-container .perfil-sugerencias .cam {
-    margin-left: 100px;
+    margin-left: 120px;
     color:rgb(0, 119, 255) ;
 }
 .sugerencias-container .perfil-sugerencias h6{
@@ -39,30 +39,34 @@
     color: #ccc;
 }
 .sugerencias-container p a{
-    margin-left: 117px;
+    margin-left: 140px;
     font-size: 13px;
 }
-/*----------------- CONTENEDOR DE SUGERENCIAS DE PERFILES -----------*/
-.sugerencias-container .sugerencias-suge ul{
-    list-style: none;
-    margin-top: 20px;
-    font-size:12px;
-}
-.sugerencias-container .sugerencias-suge ul li{
+
+/*--------------------- CONETENDOR DE SUGERENCIAS DE PERFIL ---------------------*/
+.sugerencias-container .perfil-sug {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    justify-content:left;
+    align-items:center;
     margin-top: 10px;
-    font-size:12px;
 }
-/* CONFIGURACION DE LOS TEXTOS  */
-.sugerencias-container .sugerencias-suge ul li a{
-    margin-left:10px;
-}
-/* CONFIGURACION DE LAS IMAGENES DE SUGERENCIAS  */
-.sugerencias-container .sugerencias-suge ul li img{
+
+.sugerencias-container .perfil-sug img {
     width:40px;
     height:40px;
     border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
 }
-.sugerencias-container .sugerencias-suge li p{
-    font-size: 10px;
 
+.sugerencias-container .perfil-sug .cam {
+    color:rgb(0, 119, 255) ;
+}
+.sugerencias-container .perfil-sug h6{
+    color: darkgray;
+}
+.sugerencias-container .perfil-sug strong{
+    width:400px;
 }
