@@ -70,3 +70,32 @@
 .sugerencias-container .perfil-sug strong{
     width:400px;
 }
+
+
+/*-------------- CONTENEDOR DE LA INFORMACION DE INSTAGRAM -------------------- */
+.sugerencias-container .info-insta{
+    display: inline;
+    margin-top: 20px;
+}
+
+.sugerencias-container .info-insta li a{
+    color:#8d8585;
+    font-size: 10px;
+}
+.sugerencias-container .info-insta li{
+    color:#8d8585;
+    display: inline;
+}
+.sugerencias-container .info-insta li i{
+    color:#8d8585;
+    font-size: 5px;
+    padding: -5px;
+    margin-top: -4px;
+    margin-left: 3px;
+}
+.sugerencias-container .info-insta p{
+    color:#8d8585;
+}
+.sugerencias-container .info-insta p i{
+    color:#8d8585;
+}
