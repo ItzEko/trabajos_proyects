@@ -2,11 +2,67 @@
 .sugerencias-container{
     display: flex;
     flex-direction: column;
-    width:200px;
+    width:300px;
     height: 400px;
     border: 2px solid red;
-    left: 200px;
+    left: 220px;
     position: relative;
 }
+/*--------------------- CONETENDOR DE SUGERENCIAS DE PERFIL ---------------------*/
+.sugerencias-container .perfil-sugerencias {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    justify-content:left;
+    align-items:center;
+    margin-top: 30px;
+}
 
+.sugerencias-container .perfil-sugerencias img {
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    margin-right: 17px;
+    border: 1px solid #ccc;
+}
 
+.sugerencias-container .perfil-sugerencias .cam {
+    margin-left: 100px;
+    color:rgb(0, 119, 255) ;
+}
+.sugerencias-container .perfil-sugerencias h6{
+    color: darkgray;
+}
+.sugerencias-container p{
+    font-size: 13px;
+    margin-top: 10px;
+    color: #ccc;
+}
+.sugerencias-container p a{
+    margin-left: 117px;
+    font-size: 13px;
+}
+/*----------------- CONTENEDOR DE SUGERENCIAS DE PERFILES -----------*/
+.sugerencias-container .sugerencias-suge ul{
+    list-style: none;
+    margin-top: 20px;
+    font-size:12px;
+}
+.sugerencias-container .sugerencias-suge ul li{
+    margin-top: 10px;
+    font-size:12px;
+}
+/* CONFIGURACION DE LOS TEXTOS  */
+.sugerencias-container .sugerencias-suge ul li a{
+    margin-left:10px;
+}
+/* CONFIGURACION DE LAS IMAGENES DE SUGERENCIAS  */
+.sugerencias-container .sugerencias-suge ul li img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+.sugerencias-container .sugerencias-suge li p{
+    font-size: 10px;
+
+}

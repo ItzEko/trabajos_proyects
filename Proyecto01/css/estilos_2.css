@@ -9,7 +9,7 @@
     /* OVERFLOW HIDDEN HACE QUE EL CONTENIDO SE OCULTE DENTRO DEL CONTENEDOR*/
     overflow: hidden;
     padding: 0rem;
-    border: 2px solid yellow; 
+    /* border: 2px solid yellow;  */
 }
 
 /* 
