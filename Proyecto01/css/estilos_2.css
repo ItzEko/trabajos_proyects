@@ -70,20 +70,20 @@
     background-color:  #1d1c1c;
     border: 0.0625rem solid  #6d5f5f;
     border-radius:1rem;
-    width: 568px;
-    padding: 28px;
+    width: 35.5rem;
+    padding: 1.75rem;
     margin-left:0.1875rem;
-    margin-top: 20px;
-    margin-right: 10px;
+    margin-top: 1.25rem;
+    margin-right: 0.625rem;
 }
 /* DIMENSIONES DE LA IMAGEN DE PERFIL */
 .container-posts .image-cont img{
-    margin-top:2px;
-    margin-left: 2px;
-    width: 30px;
-    height: 30px;
+    margin-top:0.125rem;
+    margin-left: 0.125rem;
+    width: 1.875rem;
+    height: 1.875rem;
     border-radius: 50%;
-    border: 2px solid rgb(0, 0, 0);
+    border: 0.125rem solid rgb(0, 0, 0);
 }
 
 /* CONTENEDOR DE GRADIENTE E IMAGEN DEL PERFIL POST */
@@ -91,32 +91,32 @@
     /* AQUI VA EL DISPLAY PARA QUE LA FOTO Y EL NOMBRE QUEDEN A UN LADO DEL OTRO */
     display: flex;
     margin-top: -15px; 
-    margin-left: 0px;
-    width:38px;
-    height:38px;
+    margin-left: 0rem;
+    width:2.375rem;
+    height:2.375rem;
     background: linear-gradient(to left,rgb(201, 0, 178),rgb(255, 0, 144),rgb(255, 227, 12));
     border-radius: 50%;
 }
 
 .container-posts .perfil-gradient-container .user-name{
-    font-size: 13px;
+    font-size: 0.8125rem;
     float: left;
-    margin-top: 10px;
-    margin-left: 7px;
+    margin-top: 0.625rem;
+    margin-left: 0.4375rem;
 }
 .container-posts ,.perfil-gradient-container i{
     float: right;
-    margin-left: 440px;
+    margin-left: 27.5rem;
 }
 /* IMAGEN DEL POST */
 .container-posts .post-img img{
-    margin-top: 10px;
-    width: 300px;
-    height: 300px;
+    margin-top: 0.625rem;
+    width: 18.75rem;
+    height: 18.75rem;
     
 }
 .container-posts .img-post{
-    margin-top: 9px;
+    margin-top: 0.5625rem;
     width: 100%;
     border-radius: 2%;
 
@@ -130,12 +130,12 @@
     align-items: center;
 }
 .container-posts .info-post .icons-post i{
-    margin: 5px;
-    font-size: 25px;
+    margin: 0.3125rem;
+    font-size: 1.5625rem;
     color: azure;
 }
 .container-posts .info-post .descripcion {
-    margin-left: 10px;
+    margin-left:0.625rem;
 }
 /* ------------------------------------------------------- */
 /* REACCIONES LIKES IMAGENES CONTENEDOR */
@@ -144,28 +144,28 @@
     display: flex;
     align-items: center;
     justify-content:left;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 /* TAMAÑOS DE LAS IMAGENES DE QUIEN REACCIONO */
 .container-posts .info-post .likes-reactions img{
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
     border-radius: 50%;
 }
 /* CONTENEDOR DEL TEXTO DESCRIPCION DEL POST */
 .container-posts .info-post .likes-reactions span{
-    margin-left: 15px;
-    font-size: 14px;
+    margin-left:0.9375rem;
+    font-size: 0.875rem;
 }
 
 /* CONFIGURACION DEL INPUT DE COMENTARIO */
 .container-posts .info-post input{
-    margin-top: 20px;
+    margin-top: 1.25rem;
     background-color: transparent;
     border: none;
     outline:none;
 }
 .container-posts .info-post i{
     color: #6d5f5f;
-    margin-left: 360px;
+    margin-left: 22.5rem;
 }

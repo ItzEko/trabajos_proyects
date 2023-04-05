@@ -42,44 +42,44 @@ body{
     color:var(--text-color);
     /* EL PISITION FIXED HACE QUE EL MENU SE QUEDE QUIETO MIENTRAS QUE EL USUARIO VA HACIENDO SCROLL */
     position:fixed;
-    padding: 10px;
+    padding: 0.625rem;
     width: 15%;
     /* altura del 100 para que agarre toda la pagina el menu */
     height: 100vh;
-    border-right:1px solid var(--color-border);
+    border-right:0.0625rem solid var(--color-border);
     /* SOMBRA CUANDO SE LE PASE EL CURSOR */
-    box-shadow:5px 0 30px rgba(0,0,0,.1);
+    box-shadow:0.3125rem 01.875rem rgba(0,0,0,.1);
 }
 .menu ul li a i{
-    font-size: 25px;
+    font-size: 1.5625rem;
     display: inline;
-    padding: 10px;
+    padding: 0.625rem;
 }
 .menu ul li a{
     display: block;
-    padding: 10px;
-    font-size: 15px;
+    padding: 0.625rem;
+    font-size: 0.9375rem;
     color: var(--text-color);
 }
 .menu ul li a img{
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
     border-radius: 140%;
-    margin-left: 10px;
+    margin-left: 0.625rem;
 
 }
 /* HOVER SE OCUPA PARA CUANDO EL MOUSE SE PASA SOBRE LOS ELEMENTOS ESTOS SE PONGAN DE UN COLOR  */
 .menu ul li a:hover{
     background-color:var(--bg-color);
-    border-radius: 30px;
+    border-radius: 1.875rem;
 
 }
 
 /* GATITO PARA TRAER LOS IDS  */
 #logo{
     font-family:'Cookie', cursive;
-    font-size: 35px;
-    padding: 25px;
+    font-size: 2.1875rem;
+    padding: 1.5625rem;
     color: var(--text-color);
 }
 /* hola */

@@ -2,32 +2,32 @@
 .sugerencias-container{
     display: flex;
     flex-direction: column;
-    width:320px;
-    height: 400px;
+    width:20rem;
+    height:25rem;
     /* border: 2px solid red; */
-    left: 220px;
+    left:13.75rem;
     position: relative;
 }
 /*--------------------- CONETENDOR DE SUGERENCIAS DE PERFIL ---------------------*/
 .sugerencias-container .perfil-sugerencias {
     display: flex;
     flex-direction: row;
-    font-size: 13px;
+    font-size:0.8125rem;
     justify-content:left;
     align-items:center;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .sugerencias-container .perfil-sugerencias img {
-    width:60px;
-    height:60px;
+    width:3.75rem;
+    height:3.75rem;
     border-radius: 50%;
-    margin-right: 17px;
-    border: 1px solid #ccc;
+    margin-right:1.0625rem;
+    border: 0.0625rem solid #ccc;
 }
 
 .sugerencias-container .perfil-sugerencias .cam {
-    margin-left: 120px;
+    margin-left: 7.5rem;
     color:rgb(0, 119, 255) ;
 }
 .sugerencias-container .perfil-sugerencias .cam:hover {
@@ -37,13 +37,13 @@
     color: darkgray;
 }
 .sugerencias-container p{
-    font-size: 13px;
-    margin-top: 10px;
+    font-size: 0.8125rem;
+    margin-top: 0.625rem;
     color: #ccc;
 }
 .sugerencias-container p a{
-    margin-left: 140px;
-    font-size: 13px;
+    margin-left: 8.75rem;
+    font-size: 0.8125rem;
 }
 .sugerencias-container  p a:hover{
     color:#8d8585;
@@ -53,18 +53,18 @@
 .sugerencias-container .perfil-sug {
     display: flex;
     flex-direction: row;
-    font-size: 13px;
+    font-size: 0.8125rem;
     justify-content:left;
     align-items:center;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .sugerencias-container .perfil-sug img {
-    width:40px;
-    height:40px;
+    width:2.5rem;
+    height:2.5rem;
     border-radius: 50%;
-    margin-right: 10px;
-    border: 1px solid #ccc;
+    margin-right: 0.625rem;
+    border:0.0625rem solid #ccc;
 }
 
 .sugerencias-container .perfil-sug .cam {
@@ -74,13 +74,13 @@
     color: darkgray;
 }
 .sugerencias-container .perfil-sug strong{
-    width:400px;
+    width:25rem;
 }
 .sugerencias-container .perfil-sug button{
     cursor: pointer;
     background-color: transparent;
-    height: 50px;
-    width: 50px;
+    height: 3.125rem;
+    width: 3.125rem;
     color:rgb(0, 119, 255) ;
     border: none;
 }
@@ -93,12 +93,12 @@
 /*-------------- CONTENEDOR DE LA INFORMACION DE INSTAGRAM -------------------- */
 .sugerencias-container .info-insta{
     display: inline;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .sugerencias-container .info-insta li a{
     color:#8d8585;
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 .sugerencias-container .info-insta li{
     color:#8d8585;
@@ -106,10 +106,10 @@
 }
 .sugerencias-container .info-insta li i{
     color:#8d8585;
-    font-size: 5px;
-    padding: -5px;
-    margin-top: -4px;
-    margin-left: 3px;
+    font-size: 0.3125rem;
+    padding: -0.3125rem;
+    margin-top: -0.25rem;
+    margin-left: 0.1875rem;
 }
 .sugerencias-container .info-insta p{
     color:#8d8585;
